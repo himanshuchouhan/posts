@@ -1,7 +1,7 @@
-title: Your Name
-description: Your tagline or description
+title: Himanshu Chouhan
+description: Sharing insights on AI, technology, and innovation
 baseurl: ""
-url: "https://yourusername.github.io"
+url: "https://himanshuchouhan.github.io"
 
 # Build settings
 markdown: kramdown
@@ -11,9 +11,19 @@ plugins:
 
 # Personal info
 author:
-  name: Your Name
-  email: your.email@example.com
-  linkedin: your-linkedin-profile
-  remote_theme: alshedivat/al-folio
-# or
-remote_theme: mmistakes/minimal-mistakes
+  name: Himanshu Chouhan
+  email: your.email@example.com  # Replace with your email
+
+# Navigation
+header_pages:
+  - about.md
+  - posts.md
+
+# Show excerpts on home page
+show_excerpts: true
+
+# Minima theme settings
+minima:
+  social_links:
+    linkedin: himanshuchouhan  # Replace with your LinkedIn username
+    github: himanshuchouhan
